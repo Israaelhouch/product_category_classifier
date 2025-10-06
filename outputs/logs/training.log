@@ -1,0 +1,25 @@
+2025-10-06 15:06:08,583 - INFO - Starting training process...
+2025-10-06 15:06:10,860 - INFO - Preprocessing completed successfully.
+2025-10-06 15:06:10,872 - INFO - Data split: 8416 train samples, 2105 test samples.
+2025-10-06 15:06:11,261 - INFO - Model training completed successfully.
+2025-10-06 15:06:11,271 - INFO - Classification Report:
+                       precision    recall  f1-score   support
+
+          Bureautique       0.98      0.98      0.98       259
+       Electroménager       1.00      1.00      1.00       488
+           Impression       0.97      0.98      0.98       196
+         Informatique       0.98      0.97      0.97       643
+Réseau & Connectiques       0.94      0.98      0.96       121
+             Stockage       0.90      1.00      0.95        19
+             Sécurité       0.90      1.00      0.95        36
+        TV-Son-Photos       0.95      0.94      0.94       223
+Téléphonie & Tablette       0.94      0.93      0.93       120
+
+             accuracy                           0.97      2105
+            macro avg       0.95      0.98      0.96      2105
+         weighted avg       0.97      0.97      0.97      2105
+
+2025-10-06 15:06:11,525 - INFO - Pipeline saved successfully.
+2025-10-06 15:06:11,526 - INFO - Training complete. Model saved successfully.
+2025-10-06 15:12:18,398 - INFO - Pipeline loaded successfully.
+2025-10-06 15:12:18,402 - INFO - Predicted Category: Informatique
