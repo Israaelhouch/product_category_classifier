@@ -10,7 +10,7 @@ The raw product data utilized in this analysis was obtained via Web Scraping usi
 Data Source Repository: [Your Web Scraper Repo Link]
 
 
-## 🌟 Key Results & Performance
+##  Key Results & Performance
 The final model, a highly efficient Linear Support Vector Classifier (LinearSVC), achieved outstanding generalization and prediction capabilities on real-world e-commerce data.
 
 Overall Accuracy: 97.0%
@@ -62,5 +62,4 @@ Weighted F1-Score: 0.97
 ├── 📖 README.md
 └── 📄 requirements.txt
 ```
-
-## ⚙️ How to Run the Project
+##  How to Run the Project
