@@ -1,8 +1,9 @@
-2025-10-06 15:06:08,583 - INFO - Starting training process...
-2025-10-06 15:06:10,860 - INFO - Preprocessing completed successfully.
-2025-10-06 15:06:10,872 - INFO - Data split: 8416 train samples, 2105 test samples.
-2025-10-06 15:06:11,261 - INFO - Model training completed successfully.
-2025-10-06 15:06:11,271 - INFO - Classification Report:
+2025-10-07 08:33:58,446 - INFO - Model not found. Training a new model...
+2025-10-07 08:33:58,447 - INFO - Starting training process...
+2025-10-07 08:34:01,747 - INFO - Preprocessing completed successfully.
+2025-10-07 08:34:01,763 - INFO - Data split: 8416 train samples, 2105 test samples.
+2025-10-07 08:34:02,410 - INFO - Model training completed successfully.
+2025-10-07 08:34:02,433 - INFO - Classification Report:
                        precision    recall  f1-score   support
 
           Bureautique       0.98      0.98      0.98       259
@@ -19,7 +20,7 @@ Téléphonie & Tablette       0.94      0.93      0.93       120
             macro avg       0.95      0.98      0.96      2105
          weighted avg       0.97      0.97      0.97      2105
 
-2025-10-06 15:06:11,525 - INFO - Pipeline saved successfully.
-2025-10-06 15:06:11,526 - INFO - Training complete. Model saved successfully.
-2025-10-06 15:12:18,398 - INFO - Pipeline loaded successfully.
-2025-10-06 15:12:18,402 - INFO - Predicted Category: Informatique
+2025-10-07 08:34:02,783 - INFO - Pipeline saved successfully.
+2025-10-07 08:34:02,784 - INFO - Training complete. Model saved successfully.
+2025-10-07 08:34:02,908 - INFO - Pipeline loaded successfully.
+2025-10-07 08:34:02,911 - INFO - Predicted Category: Informatique

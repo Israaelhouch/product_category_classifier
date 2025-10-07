@@ -160,11 +160,18 @@ class ProductCategoryClassifier:
 
     def load_pipeline(self, path_prefix='outputs/models/product_category_pipeline'):
         try:
-            self.tfidf = joblib.load(f'{path_prefix}_tfidf.pkl')
-            self.scaler = joblib.load(f'{path_prefix}_scaler.pkl')
-            self.label_encoder = joblib.load(f'{path_prefix}_label_encoder.pkl')
-            self.classifier = joblib.load(f'{path_prefix}_classifier.pkl')
+            base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            abs_prefix = os.path.join(base_dir, path_prefix.replace('/', os.sep))
+            
+            print(f"Loading pipeline from: {abs_prefix}_tfidf.pkl")
+
+            self.tfidf = joblib.load(f'{abs_prefix}_tfidf.pkl')
+            self.scaler = joblib.load(f'{abs_prefix}_scaler.pkl')
+            self.label_encoder = joblib.load(f'{abs_prefix}_label_encoder.pkl')
+            self.classifier = joblib.load(f'{abs_prefix}_classifier.pkl')
+            
             logger.info("Pipeline loaded successfully.")
+        
         except Exception as e:
             logger.error(f"Error loading pipeline: {e}")
             raise

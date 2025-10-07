@@ -6,7 +6,7 @@ from scripts.train_model import train_model
 logger = setup_logger()
 
 def main():
-    model_dir = r'C:\Users\lenovo\Desktop\data_cleaning\outputs\models'
+    model_dir = r'outputs\models'
     pipeline_path = os.path.join(model_dir, 'product_category_pipeline')
 
     # Train model if it doesn't exist
