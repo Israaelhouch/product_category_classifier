@@ -71,7 +71,7 @@ Weighted F1-Score: 0.97
 ├── 🚫 .gitignore
 ├── 📖 README.md
 └── 📄 requirements.txt
-
+```
 ---
 
 ## How to Run
